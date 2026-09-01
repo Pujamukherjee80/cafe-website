@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Puja Cafe | Fresh & Delicious</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Puja Cafe
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="toggleMenu()">
+                ☰
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                WELCOME TO
+            </p>
+
+            <h1>
+                Puja Cafe
+            </h1>
+
+            <p>
+                Fresh food, delicious coffee and a cozy place
+                to spend your beautiful moments.
+            </p>
+
+            <a href="#menu" class="btn">
+                Explore Our Menu
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <div class="section-title">
+            <p>ABOUT US</p>
+            <h2>Made With Love</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div>
+                <h3>
+                    A cozy place for everyone
+                </h3>
+
+                <p>
+                    Puja Café is a small and friendly café
+                    where you can enjoy freshly prepared food,
+                    delicious beverages and a relaxing atmosphere.
+                </p>
+
+                <p>
+                    Whether you're meeting friends, studying,
+                    or simply enjoying some quiet time,
+                    we are happy to welcome you.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+
+        <div class="section-title">
+            <p>OUR MENU</p>
+            <h2>Popular Items</h2>
+        </div>
+
+
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <div class="food-icon">☕</div>
+
+                <h3>Cappuccino</h3>
+
+                <p>
+                    Rich espresso with steamed milk
+                    and creamy foam.
+                </p>
+
+                <span>₹120</span>
+            </div>
+
+
+            <div class="menu-card">
+                <div class="food-icon">🍕</div>
+
+                <h3>Cheese Pizza</h3>
+
+                <p>
+                    Freshly baked pizza with
+                    delicious melted cheese.
+                </p>
+
+                <span>₹220</span>
+            </div>
+
+
+            <div class="menu-card">
+                <div class="food-icon">🍔</div>
+
+                <h3>Classic Burger</h3>
+
+                <p>
+                    Juicy burger with fresh vegetables
+                    and special sauce.
+                </p>
+
+                <span>₹180</span>
+            </div>
+
+
+            <div class="menu-card">
+                <div class="food-icon">🍰</div>
+
+                <h3>Chocolate Cake</h3>
+
+                <p>
+                    Soft chocolate cake with
+                    rich creamy frosting.
+                </p>
+
+                <span>₹150</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Us</h2>
+        </div>
+
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Visit Our Cafe</h3>
+
+                <p>
+                    📍 College Road, Kolkata, India
+                </p>
+
+                <p>
+                    📞 +91 98765 43210
+                </p>
+
+                <p>
+                    ✉️ hello@pujacafe.com
+                </p>
+
+                <p>
+                    🕒 Mon - Sun: 9:00 AM - 9:00 PM
+                </p>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Puja Café. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
